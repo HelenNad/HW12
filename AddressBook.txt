@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Клавдія Деревʼянко",
+        "phone": "197-86-42",
+        "email": "satsiukteodor@example.org",
+        "birthday": "2000-05-30"
+    },
+    {
+        "name": "Леонтій Чаленко",
+        "phone": "+38 007 699 52 62",
+        "email": "pavloarkhymovych@example.net",
+        "birthday": "2020-03-24"
+    },
+    {
+        "name": "Захар Шеремета",
+        "phone": "461 74 18",
+        "email": "ydubenko@example.com",
+        "birthday": "1983-12-14"
+    },
+    {
+        "name": "Назар Семенченко",
+        "phone": "081 768 66 84",
+        "email": "khrystynastelmakh@example.org",
+        "birthday": "1990-06-24"
+    },
+    {
+        "name": "Данна Захарченко",
+        "phone": "650 31 84",
+        "email": "khudobiakruslan@example.org",
+        "birthday": "1998-07-06"
+    }
+]
