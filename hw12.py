@@ -23,12 +23,12 @@ class AddressBook():
         self.word = None
 
     def to_json(self):
-        with open ("AddressBook.txt", "w", encoding='utf8') as fh:
+        with open ("AddressBook.json", "w", encoding='utf8') as fh:
             json.dump(self.users, fh, indent=4, ensure_ascii=False)
             print ("Users were saved")
 
     def with_json(self):
-        with open ("AddressBook.txt", "r", encoding='utf8') as fh:
+        with open ("AddressBook.json", "r", encoding='utf8') as fh:
             unpacked = json.load(fh)   
             return unpacked
 
@@ -64,8 +64,8 @@ class AddressBook():
 if __name__ == "__main__":
     create_users (fake, users, n =5)
     ad_book = AddressBook()
-    #print (ad_book)
+    print (ad_book)
     #print(ad_book.with_json())
     ad_book.quantity = 5
-    ad_book.word = "Ол"
+    #ad_book.word = "Ол"
     print(next(ad_book))
